@@ -1,15 +1,30 @@
-I really like this task, so i decided to upload it to GitHub. My professor gave me this project with a lot of bugs, so I fixed it and returned the fixed version.
+# Java Car Sales Project
 
-To run it on your machine, you need to have the JDK installed and have Java properly configured. To compile, type:
+Este repositório contém um projeto de gerenciamento de vendas de carros em Java, desenvolvido como uma tarefa universitária. O projeto original continha diversos bugs que foram corrigidos, resultando em uma versão funcional.
 
-javac filename.java
+## Estrutura do Projeto
 
-Or you can compile all files at once with:
+O projeto é composto pelos seguintes arquivos:
 
-javac *.java
+- **Carro.java**: Classe que representa um carro com atributos como modelo, marca e preço.
+- **Cliente.java**: Classe que representa um cliente com informações pessoais.
+- **Venda.java**: Classe responsável por registrar as vendas realizadas.
+- **Main.java**: Classe principal que executa o programa e gerencia as interações entre carros, clientes e vendas.
 
-Then, simply type:
+## Como Executar
 
-java Main
+Para rodar o projeto em sua máquina, é necessário ter o JDK instalado e configurado corretamente. Siga os passos abaixo:
 
-Have fun! 
+1. Compile os arquivos Java com o comando:
+   ```bash
+   javac *.java
+   ```
+
+2. Execute o programa com:
+   ```bash
+   java Main
+   ```
+---
+
+Feito com dedicação para aprendizado e correção de bugs!
+
