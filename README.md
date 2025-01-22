@@ -28,3 +28,28 @@ Para rodar o projeto em sua máquina, é necessário ter o JDK instalado e confi
 
 Feito com dedicação para aprendizado e correção de bugs!
 
+# Java Car Sales Project
+
+This repository contains a car sales management project in Java, developed as a university assignment. The original project had several bugs that were fixed, resulting in a functional version.
+
+## Project Structure
+
+The project consists of the following files:
+
+- **Carro.java**: Class that represents a car with attributes such as model, brand, and price.
+- **Cliente.java**: Class that represents a customer with personal information.
+- **Venda.java**: Class responsible for recording completed sales.
+- **Main.java**: Main class that runs the program and manages interactions between cars, customers, and sales.
+
+## How to Run
+
+To run the project on your machine, you need to have the JDK installed and properly configured. Follow the steps below:
+
+1. Compile the Java files with the command:
+   ```bash
+   javac *.java
+
+2. Execute the program with:
+   ```bash
+   java Main
+   ```
